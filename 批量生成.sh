@@ -10,7 +10,7 @@ API_KEY="wk-bXicb25bO3bLQ6pNrK1ghXeufrjUZRIez2PcocHF7rMabCFG"
 API="https://apihub.agnes-ai.com/v1/videos"
 PROJ="/Users/mac/Desktop/Toonflow-app/尘虚界动态漫"
 OUT="$PROJ/08-视频/分镜头1"
-RAW="https://raw.githubusercontent.com/ylm0302/lubapp/main"
+RAW="https://cdn.jsdelivr.net/gh/ylm0302/lubapp@main"
 # 获取GitHub raw URL（自动UTF-8编码中文）
 raw_url() { python3 -c "import urllib.parse, sys; print('$RAW/' + urllib.parse.quote(sys.argv[1]))" "$1" 2>/dev/null; }
 mkdir -p "$OUT"
